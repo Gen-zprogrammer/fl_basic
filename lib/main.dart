@@ -3,7 +3,10 @@ import 'package:flutter_basic/appbar_sliver.dart';
 import 'package:flutter_basic/bottom_navbar.dart';
 import 'package:flutter_basic/bottom_navbar_items.dart';
 import 'package:flutter_basic/container_widget.dart';
+import 'package:flutter_basic/date_time.dart';
+import 'package:flutter_basic/dialog.dart';
 import 'package:flutter_basic/drawer.dart';
+import 'package:flutter_basic/dropdown.dart';
 import 'package:flutter_basic/floatingaction_button.dart';
 import 'package:flutter_basic/gridview.dart';
 import 'package:flutter_basic/images.dart';
@@ -19,10 +22,8 @@ import 'package:flutter_basic/textfield.dart';
 import 'package:flutter_basic/widget_intro.dart';
 
 void main() {
-  runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: WidgetIntroduction(),
-    ),
-  );
+  runApp(const MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Dialog_BottomSheet(),
+  ));
 }
